@@ -1,9 +1,10 @@
-import org.junit.jupiter.api.Disabled;
+package tests1;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class SomeTests {
+public class SomeTests9 {
     @Test
     void test1() {
         assertTrue(true);
@@ -11,18 +12,16 @@ public class SomeTests {
 
     @Test
     void test2() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
-    @Disabled
     void test3() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
-    @Disabled
     void test4() {
-        assertTrue(false);
+        assertTrue(true);
     }
 }
